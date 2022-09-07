@@ -21,13 +21,13 @@ i= 0 % 10
 # 0
 j= 10 / 15
 # 0.6
-# Answer is repeating but the deicmal is finite
+# Answer should be repeating but the deicmal is finite
 print(a,b,c,d,e,f,g,h,i,j)
 print(type(j))
 
 # Part 2
 rate = float(input("What is the current exhcange rate from Euro to USD?"))
-amount  = int(input("How much Euro do you want to convert to USD?"))
+amount  = float(input("How much Euro do you want to convert to USD?"))
 total= rate*amount
 result= str(total-3)
 print("$ " + result + " will be given back to you! Thank you for your service!")
