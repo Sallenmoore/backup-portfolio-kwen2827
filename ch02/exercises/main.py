@@ -1,4 +1,4 @@
-print("hello")
+ print("hello test")
 import turtle
 wn = turtle.Screen()          
 # Set up the window and its attributes
