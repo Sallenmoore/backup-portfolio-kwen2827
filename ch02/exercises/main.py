@@ -1,4 +1,4 @@
- print("hello test again")
+
 import turtle
 wn = turtle.Screen()          
 # Set up the window and its attributes
@@ -28,20 +28,20 @@ for i in range(4):
     uber.left(90)
     uber.forward(50)
 
-
-
-
 # turtle draw any shape
 vertex = turtle.Turtle()
 vertex.up()
 vertex.goto(150,-50)
 vertex.down()
 userColor = input("What color?")
-
 vertex.color(userColor)
+# if vertex.color(userColor).status_code == 200:
+#   print("YES")
+# else:
+#  print("nooo")
 vertex.pensize(3)
 vertex.shape("turtle")
-numberOfSides = int(input("How sides do you want your shape to have?"))
+numberOfSides = int(input("How many sides do you want your shape to have?"))
 
 print (numberOfSides)
 Angle = 360 // numberOfSides

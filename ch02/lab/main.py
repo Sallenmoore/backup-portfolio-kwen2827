@@ -16,11 +16,17 @@ cost_per_class = int(cost_per_week // classes_per_week)
 print("Everyday, you're paying $"+ str(cost_per_class) +" for each of your classes! Thank you for your service!",type(cost_per_class))
 
 #Part B
-random.randrange(1,10)
+random.randrange(1,6)
 
 myList = ["phone", "4" , 0.5, "CS110", 0, "food"]
 print(myList)
-numberOfOutput = int(input("How many random output do you want?"))
-for i in range(numberOfOutput):
-  myRandom =  random.choice(myList)
-  print(myRandom, type(myRandom))
+myRandom =  random.choice(myList)
+print("Random thing from the list: " + str(myRandom), type(myRandom))
+
+
+# numberOfOutput = int(input("How many random output do you want?"))
+# for i in range(numberOfOutput):
+#   myRandom =  random.choice(myList)
+#   print("Random list" + str(myRandom), type(myRandom))
+
+
