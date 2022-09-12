@@ -23,7 +23,7 @@ print(myList)
 myRandom =  random.choice(myList)
 print("Random thing from the list: " + str(myRandom), type(myRandom))
 
-
+# Loop to get multiple output
 # numberOfOutput = int(input("How many random output do you want?"))
 # for i in range(numberOfOutput):
 #   myRandom =  random.choice(myList)
